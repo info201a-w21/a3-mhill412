@@ -1,1 +1,90 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
+# Incarceration across the US
+
+## Introduction
+
+Incarceration in America is a hot topic due to many factors. One thing
+that many claim is that African Americans are unjustly incarcerated at a
+much higher rate that white people. Reasons for this could range from
+racist police all the way up the judicial system. While I cannot decided
+just versus unjust incarcerations in this data, I can compare
+incarceration rates by race to give us a sense of how wide that gap is.
+
+In this assignment, we explored incarceration through analysis of the
+large data file supplied from Vera's Incarceration Trends data tool.
+This data set is so huge that I chose a specific division of it to focus
+on. I decided to focus on jail data because it was plentiful and I had a
+good idea of how I was going to approach it. I used the variables
+"black_age_15to64" and "white_age_15to64" to to compare to associated
+jail population variables to see what percentage of each race's
+population is put in jail. In 2018, the percent of African Americans in
+jail was 0.859%, versus 0.268% for white people. Over three times as
+many black individuals went to jail as a portion of their race as white
+people did. While blacks make up a mere 13.4% of the US population, the
+jail system was over 33% black in 2018. The white population, which
+makes up 73% of the general population, only made up less than 47% of
+the jail population in 2018. Another shocking statistic I calculated
+gives evidence as to how many people have moved through the jail system
+since 1978. Since then, over 10 million people have moved through the
+system, many of them wrongfully or unjustly, just because of the color
+of their skin.
+
+## Trends over time chart
+
+My trends over time graph, variable "time_trend_plot", examines how the
+percentage of a race's population in jail has changed over time, to
+uncover some interesting trends. The line graph compares percent of the
+black population in jail over time with the same for the white
+population. The blue line, representing the white statistic, shows just
+how low incarceration rates were for whites in the 90s. I think it is
+important to mention that I do not think crime has gone up as these
+graphs would show. The red line representing African Americans is the
+interesting one. For one, for the first half of the graph the
+incarceration rate is multiple magnitudes higher than that of white
+people. Then, around 2008 (amid the election), black incarceration goes
+down finally, not to go back up until around 2016.
+
+## Variable comparison chart
+
+This graph takes what we were just analyzing and goes a little deeper.
+In the line graph we are comparing percent of African Americans going to
+jail and percentage of white people going to jail. This graph got a
+little messy, but there is certainly a trend. Once you look past the
+outliers, you can see a quadratic line in the plot. To make this easier
+to understand, imagine the line is straight. This would mean that every
+year the rate has increased by the same amount for both whites and
+blacks. Instead, the line skews towards the white population, meaning
+that since 1990, the rate of whites being put in jail has slowly started
+rising to meet the rate of blacks. That being said, the rates are still
+not even close to meeting. While the x axis is 0 to 2.0%, the y axis is
+only 0 to 0.9%. The highest the trend line gets is about 0.65 for the
+white population.
+
+## Map
+
+My map explores this same trend of rates of jailing from a different
+angle, divided up by state. For the map I assigned each state a value
+that was calculated as the difference between the state's rate of white
+jailing and rate of black jailing. the states that show up in dark blue
+here are the states that have a low white incarceration rate and a high
+black incarceration rate. Upon completion of the map, I was a bit
+shocked by the outcome. It appeared that the states with the biggest gap
+were not the states that everyone hears about, but the ones that are
+rather quiet. Wyoming had the highest difference, at 2.15%. To be clear,
+that does not mean that 2.15% more black people are being put in jail.
+That means that for black people just existing there, the odds of them
+ending up in jail at any moment are over 2% higher than for white
+people. If we had 2,000 people, 1,000 white and 1,000 black, 22 more
+black human beings are being sent to jail. If you are wondering, for
+that situation, only 2-3 white people are getting arrested.
+Interestingly states in the South like the Carolinas, and Texas did not
+have as high if a difference. I imagine this is due to a high white
+crime rate. Even though theses states do have a low difference, no state
+was able to match their rates, except for Alaska, with a 0.0006%
+difference in rates (This may be due to Alaska not jailing many people,
+but is cool to see none the less).
